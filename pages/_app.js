@@ -14,7 +14,7 @@ function App({Component, pageProps }) {
       <Header />
 
       <main className={styles.main}>
-        <Component/>
+        <Component {...pageProps}/>
       </main>
     </div>
   );

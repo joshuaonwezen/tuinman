@@ -7,7 +7,7 @@ import LightIndicator from "../components/LightIndicator";
 export default function Match() {
   return (
     <div>
-      <div className={styles.white_container}>
+      <div className={styles["white-container"]}>
         <Carousel width="50vw" showStatus="false">
           <div className={styles.question}>
             <p className={styles.description}>How light is your room?</p>

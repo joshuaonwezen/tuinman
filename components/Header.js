@@ -4,19 +4,22 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header className={styles.header}>
+        <h4>
+            greenhouse
+        </h4>
         <nav>
             <ul>
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/">home</Link>
                 </li>
                 <li>
-                    <Link href="/match">Match</Link>
+                    <Link href="/match">match</Link>
                 </li>
                 <li>
-                    <Link href="/catalog">Catalog</Link>
+                    <Link href="/articles">catalog</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
+                    <Link href="/about">about</Link>
                 </li>
             </ul>
         </nav>

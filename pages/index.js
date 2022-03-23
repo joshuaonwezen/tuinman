@@ -4,13 +4,16 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <div className={styles.white_container}>
+      <div className={styles["image-container"]}>
+
+      </div>
+      <div className={styles["white-container"]}>
         <h1 className={styles.title}>
-          Greenhouse
+        To help you green up your room
         </h1>
 
         <p className={styles.description}>
-          To help you green up your room
+          Want to learn more?
         </p>
       </div>
 

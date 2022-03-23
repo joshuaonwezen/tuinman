@@ -1,9 +1,7 @@
 .header {
-    width: 60vw;
-    // align-self: flex-end;
-    border-radius: 10px;
-    background-color: #3f5c414d;
-    color: #fff;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
 
     nav {
         width: 100%;
@@ -11,14 +9,15 @@
         ul {
             list-style-type: none;
             display: flex;
-            justify-content: space-evenly;
-            max-width: 60vw;
+            justify-content: flex-end;
             margin: auto;
             margin-top: 20px;
             margin-bottom: 20px;
 
             li {
-                font-weight: bold;
+                font-weight: normal;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
     }
